@@ -1,0 +1,229 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+*{
+    font-family: 'Amazon Ember', sans-serif !important;
+}
+
+.navbar{
+    padding-left: 10%;
+    padding-right: 5%;
+    background-color: #00050d!important;
+}
+.navbar img{
+    height: 20px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+#nav_ul{
+    padding-left: 3%;
+}
+#nav_ul a{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#top_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: fit-content; */
+    width: 30%;
+}
+#top_icon a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(201, 198, 198);
+}
+
+@media screen and (max-width: 820px){
+    #top_icon{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 640px){
+    #top_icon{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px){
+    #top_icon{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 412px){
+    #top_icon{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 414px){
+    #top_icon{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 428px){
+    #top_icon{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 320px){
+    #top_icon{
+        width: 90%;
+    }
+}
+
+
+
+#first_section_img{
+    background-image: url(Images/MLP.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    
+}
+#first_section_text{
+    margin-top: 3%;
+    padding-bottom: 30%;
+    color: white;
+    
+}
+#first_section_text h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+#first_section_text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+#second_section_img{
+    background-image: url(Images/TVOD_MLP_Right.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    
+}
+#second_section_text{
+    margin-top: 3%;
+    padding-bottom: 30%;
+    color: white;
+    
+}
+#second_section_text h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+#second_section_text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+#third_section_text h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+#third_section_text p{
+    padding-top: 3%;
+    font-size: 18px;
+    font-weight: 400;
+}
+#third_section_img ul li{
+    list-style-type: none;
+    margin: 1%;
+}
+#third_section_img ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#third_section_img img{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+}
+#third_section_img a:hover img{
+    box-shadow: 2px 2px 5px 2px black;
+}
+
+
+
+#fourth_section_img{
+    background-image: url(Images/MLP_Template_Image_Left.jpg);
+    background-position: left buttom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+#hey{
+    padding-top: 30%;
+    padding-bottom: 20%;
+}
+#fourth_section_text h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+}
+#fourth_section_text p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+#fourth_section_text .btn-primary{
+    font-size: 16px;
+    font-weight: 800;
+}
+#fourth_section_text{
+    padding-bottom: 10%;
+}
+#footer{
+    padding-top: 1%;
+    color: white;
+    background-color: #222222;
+}
+#footer a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+
+@media screen and (max-width: 520px){
+    *{
+        h1{
+            font-size: 0.9em !important;
+            font-weight: bolder !important;
+        }
+        h2{
+            font-size: 0.7em !important;
+        }
+        h3{
+            font-size: 0.7em !important;
+        }
+        h4{
+            font-size: 0.7em !important;
+        }
+        h5{
+            font-size: 0.7em !important;
+        }
+        p{
+            font-size: 0.7em !important;
+        }
+        a{
+            font-size: 0.7em !important;
+        }
+        .btn-primary{
+            font-size: 0.7em !important;
+            font-weight: bolder !important;
+        }
+    }
+}
